@@ -1,4 +1,4 @@
-version = "1.26.0"
+version = "1.28.2-pre"
 repo = "ContentSquare/CSSwiftProtobuf"
 
 Pod::Spec.new do |s|
