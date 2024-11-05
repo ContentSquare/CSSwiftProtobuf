@@ -31,7 +31,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "CSSwiftProtobufWrapper",
+            name: "CSSwiftProtobuf",
             targets: ["CSSwiftProtobufWrapper"]
         ),
     ],
