@@ -2,9 +2,9 @@
 
 import PackageDescription
 
-let version = "1.26.0"
+let version = "1.28.2"
 let repo = "ContentSquare/CSSwiftProtobuf"
-let checksum = "6e2b51ecb5dde287208f26d6b151c567598619cdc8e2445ac5f4367b530a7a8f"
+let checksum = "a7a0ba6eee370bd9b8f42f8898971ccb75b7156790e713181b96fd2cdc8321ea"
 
 let binaryTarget : Target
 
@@ -31,7 +31,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "CSSwiftProtobufWrapper",
+            name: "CSSwiftProtobuf",
             targets: ["CSSwiftProtobufWrapper"]
         ),
     ],
