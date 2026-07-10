@@ -1,4 +1,4 @@
-version = "1.33.3"
+version = "1.33.3-rc.1"
 repo = "ContentSquare/CSSwiftProtobuf"
 
 Pod::Spec.new do |s|
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.watchos.deployment_target = '5.0'
 
     s.requires_arc = true
-    s.cocoapods_version = '>= 1.7.0'
+    s.cocoapods_version = '>= 1.17.0'
 
     s.vendored_frameworks = [ 'CSSwiftProtobuf.xcframework' ]
 

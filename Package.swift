@@ -2,9 +2,9 @@
 
 import PackageDescription
 
-let version = "1.33.3"
+let version = "1.33.3-rc.1"
 let repo = "ContentSquare/CSSwiftProtobuf"
-let checksum = "444a2475cd2fd43aa5288eb60bbc3f5d663cc8acd97c9633525f16c1dd94ce4e"
+let checksum = "3a97d35b81fa2e7a581c50f00d6d568b16bae5f2ed12e908c79dee4e8efc461a"
 
 let binaryTarget : Target
 
