@@ -7,3 +7,6 @@
 
 # helmfile.yaml should be the same on every repo and is centrally managed by PF team
 helmfile.yaml @ContentSquare/devx
+
+# github-analyzer remediate: coverage additions (requested by @ContentSquare/devx)
+* @contentsquare/continuous-integration
