@@ -2,20 +2,20 @@
 
 import PackageDescription
 
-let version = "1.33.3"
+let version = "1.33.3-99"
 let repo = "ContentSquare/CSSwiftProtobuf"
-let checksum = "444a2475cd2fd43aa5288eb60bbc3f5d663cc8acd97c9633525f16c1dd94ce4e"
+let checksum = "fa29c5a00f5125ef2f65d2b34cd5f0aa624aae0e11230117776f8c324a70fa79"
 
 let binaryTarget : Target
 
 if repo.isEmpty || checksum.isEmpty || version.isEmpty {
     binaryTarget = .binaryTarget(
-        name: "CSSwiftProtobuf",
+        name: "CSSwiftProtobufBinary",
         path: "CSSwiftProtobuf.xcframework"
     )
 } else {
     binaryTarget = .binaryTarget(
-        name: "CSSwiftProtobuf",
+        name: "CSSwiftProtobufBinary",
         url: "https://github.com/\(repo)/releases/download/\(version)/package.zip",
         checksum: checksum
     )
@@ -39,7 +39,7 @@ let package = Package(
         binaryTarget,
         .target(
             name: "CSSwiftProtobufWrapper",
-            dependencies: ["CSSwiftProtobuf"]
+            dependencies: ["CSSwiftProtobufBinary"]
         )
     ],
     swiftLanguageVersions: [.v5]
